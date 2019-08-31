@@ -8,7 +8,8 @@ console.log(5 in arr) // false
 
 
 
-
+const arr = [1,2,3,4,6,7,8]
+console.logarr.map(i=>0) // [0,0,0,0,0,..]
 
 
 
@@ -65,8 +66,17 @@ arr4.splice(2,1) // from 2nd index, remove one value
 // reduce
 
 
+// 소수 구하는 함수
+function primecheck(n){
+  for(var i=2;i<=Math.sqrt(n);i++){
+    if(n%i == 0){
+      return false;
+    }
+  }
+  return true;
+}
 
-
-
-
+// object의 value로 key를 접근하는 방법
+result = {...}
+return Object.keys(result).find(key => result[key] === 1)
 
