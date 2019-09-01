@@ -1,5 +1,6 @@
 function solution(A) {
   let tmp = []
+  
   A.reduce((acc, val) => {
     console.log('acc : ', acc)
     console.log('val : ', val)

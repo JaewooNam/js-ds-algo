@@ -28,7 +28,7 @@ function advancedSolution(A) {
   for (let val of sortedArr) {
     obj[val] = (obj[val] || 0) + 1    
   }
-  console.log(obj)
+
   for (let i = 1; i <= A.length; i++) {
     if (!obj[i]) {
       return 0

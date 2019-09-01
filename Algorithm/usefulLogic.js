@@ -9,7 +9,7 @@ console.log(5 in arr) // false
 
 
 const arr = [1,2,3,4,6,7,8]
-console.logarr.map(i=>0) // [0,0,0,0,0,..]
+console.logarr.map(i=>0) // [0,0,0,0,0,..] 8개
 
 
 
