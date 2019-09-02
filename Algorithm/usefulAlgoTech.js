@@ -11,24 +11,6 @@ console.log(5 in arr) // false
 const arr = [1,2,3,4,6,7,8]
 console.logarr.map(i=>0) // [0,0,0,0,0,..] 8개
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Remove duplication
 const arr = [1,3,2,4,3,1,5,6,1,2,2]
 const newArr = [...new Set(arr)]

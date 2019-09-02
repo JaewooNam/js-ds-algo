@@ -20,6 +20,7 @@ var lengthOfLongestSubstring = function(s) {
   }
 
   max = Math.max(tmp.length, max)
+  return max
 }
 
 lengthOfLongestSubstring("ckilbkd")
